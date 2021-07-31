@@ -13,6 +13,14 @@ $(function() {
     });
 });
 
-for(var i = 0; i < array.length; i++) {
-    console.log(array[i]);
-}
+$(function() {
+    $("#reserveButton").click(function(){
+        $("#reserveModal").modal("show");
+    });
+});
+
+$(function() {
+    $("#id").click(function(){
+        $("#loginModal").modal("show");
+    });
+});
